@@ -41,7 +41,7 @@ function Header(){
                     >
                         <i className="fa fa-bars"></i>
                     </button>
-                    <Link className="brand" to="/">Dita</Link>
+                    <Link className="brand" to="/">Maya</Link>
                 </div>
                 <div>
                     <SearchBox></SearchBox>
@@ -71,6 +71,7 @@ function Header(){
                                         </li>
                                     </ul>
                                 </div>
+
                             ) :
                             (
                                 <Link to="/signin">Sign In</Link>
